@@ -1,0 +1,64 @@
+.item1{
+	grid-area: header;
+	border: 3px solid black;
+	border-top: 6px solid black;
+	border-left: 6px solid black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 65px;
+	padding-top: 20px;
+	padding-left: 20px;
+	letter-spacing: 7px;
+}
+
+.subtitle{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+	padding-left: 5px;
+	letter-spacing: 7px;
+	font-style: italic;
+}
+
+.item2{
+	grid-area: side;
+	border: 3px solid black;
+	border-top: 6px solid black;
+	border-right: 6px solid black;
+	font-family: "American Typewriter", serif;
+}
+
+.item3{
+	grid-area: body;
+	border: 3px solid black;
+	border-bottom: 6px solid black;
+	border-left: 6px solid black;
+	font-family: "American Typewriter", serif;
+	padding-left: 20px;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.date{
+	font-family: "American Typewriter", serif;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.item4{
+	grid-area: arrow;
+	border: 3px solid black;
+	border-bottom: 6px solid black;
+	border-right: 6px solid black;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 500px 400px 250px;
+  grid-template-rows: 175px 250px 250px;
+  grid-template-areas:
+    "header header side"
+    "body body side"
+    "body body arrow";
+}
