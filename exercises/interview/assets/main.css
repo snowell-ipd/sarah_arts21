@@ -1,17 +1,99 @@
-.question-container {
-  color: blue;
-  background: beige;
-  border: 1px solid blue;
-  margin: 10px;
+@font-face {    font-family: 'burgess-regular';
+    src: url('../fonts/burgess-regular.eot');
+    src: url('../fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/burgess-regular.woff') format('woff'),
+         url('../fonts/burgess-regular.woff2') format('woff2'),
+         url('../fonts/burgess-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.burgess {
+  font-family: "burgess-regular", serif;
+}
+
+.question-container1 {
+  color: black;
+  margin: 30px;
   padding: 5px;
-  font-family: monospace;
+  font-family: 'times';
+}
+
+.question1{
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.answer1{
+  font-size: 30px;
+
+}
+
+.question-container2 {
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.interviewer{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #FFB6C1;
+  padding-bottom: 3px;
+}
+
+.answer2{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.question-container3 {
+  border: 1px solid #838B8B	;
+  margin: 30px;
+  padding: 5px;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 50px;
+}
+
+.question3{
+  color: #B4CDCD;
+  font-size: 30px;
+}
+
+.answer3{
+  color: #5F9F9F;
+  font-size: 30px;
+}
+
+.question-container4 {
+  margin: 30px;
+  padding: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 24px;
 }
 
-.question{
+.interveiwer1{
+	font-weight: bolder;
+	color: red;
 
 }
 
-.answer{
+.answer4{
+	font-weight: lighter;
+}
 
+.question-container5 {
+
+  margin: 30px;
+  padding: 5px;
+  font-family: "burgess-regular", serif;
+  font-size: 24px;
+}
+
+.question5{
+	color: green;
+}
+
+.answer5{
+	color: green;
 }
