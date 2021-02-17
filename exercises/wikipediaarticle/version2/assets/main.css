@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'johanssonsans';
+    src: url('johanssonsans.woff2'),
+        url('johanssonsans.woff');
+}
+
+@font-face {
+    font-family: 'bodonitown';
+    src: url('bodonitown.woff2'),
+        url('bodonitown.woff');
+}
+
+.subheader{
+	font-family: johanssonsans;
+	margin: 10px;
+	font-size:25px;
+	font-weight:bold;
+	color: red;
+	letter-spacing: 4px;
+
+}
+
+.subheader2{
+	font-family: johanssonsans;
+	margin-left:30px;
+	font-size: 20px
+	letter-spacing: 6px;
+}
+
+p {
+	font-family: bodonitown;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 15px;
+	letter-spacing: 0
+	line-height: 1.4;
+
+}
+
+.articletitle{
+	font-family: johanssonsans;
+	font-size: 50px;
+	letter-spacing: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-top: 30px;
+	font-weight: bolder;
+}
+
+.indented{
+	font-family: bodonitown;
+	font-size: 15px;
+	padding-left: 100px;
+	padding-right:100px;
+	letter-spacing: 0
+	line-height: 1.4;
+	font-weight: lighter;
+}
+
+ul{
+	margin-left: 45px;
+	font-family: bodonitown;
+	font-size: 15px;
+}
