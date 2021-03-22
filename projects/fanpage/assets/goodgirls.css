@@ -1,0 +1,229 @@
+.monsterone {
+  cursor: url(imgs/monster1.png), auto;
+}
+.monstertwo {
+  cursor: url(imgs/monster2.png), auto;
+}
+.monsterthree {
+  cursor: url(imgs/monster3.png), auto;
+}
+.monsterfour {
+  cursor: url(imgs/monster4.png), auto;
+}
+.monsterfive {
+  cursor: url(imgs/monster5.png), auto;
+}
+.monstersix {
+  cursor: url(imgs/monster6.png), auto;
+}
+.monsterseven {
+  cursor: url(imgs/monster7.png), auto;
+}
+.monstereight {
+  cursor: url(imgs/monster8.png), auto;
+}
+.monsternine {
+  cursor: url(imgs/monster9.png), auto;
+}
+.monsterten {
+  cursor: url(imgs/monster10.png), auto;
+}
+.monstereleven {
+  cursor: url(imgs/monster11.png), auto;
+}
+.monstertwelve {
+  cursor: url(imgs/monster12.png), auto;
+}
+.monsterthirteen {
+  cursor: url(imgs/monster13.png), auto;
+}
+.monsterfourteen {
+  cursor: url(imgs/monster14.png), auto;
+}
+.monsterfifteen {
+  cursor: url(imgs/monster15.png), auto;
+}
+.monstersixteen {
+  cursor: url(imgs/monster16.png), auto;
+}
+
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -220px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding-top: 10px; /* 15px padding */
+  padding-bottom: 10px; /* 15px padding */
+  padding-left: 20px;
+  padding-right: 25px;
+  width: 200px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: black; /* White text color */
+  border-radius: 0 20px 20px 0;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#exclaim {
+  top: 10px;
+  background-color: #e6ffe6;
+}
+#badguy {
+  top: 60px;
+  background-color: #ccffcc;
+}
+#xanny {
+  top: 110px;
+  background-color: #b3ffb3;
+}
+#crown {
+  top: 160px;
+  background-color: #99ff99;
+}
+#goodgirls {
+  top: 210px;
+  background-color:  #80ff80;
+}
+#gay {
+  top: 260px;
+  background-color: #66ff66;
+}
+#party {
+  top: 310px;
+  background-color: #4dff4d;
+}
+#eight {
+  top: 360px;
+  background-color: #33ff33;
+}
+#addiction {
+  top: 410px;
+  background-color: #1aff1a;
+}
+#buryafriend {
+  top: 460px;
+  background-color: #00ff00;
+}
+#lomilo {
+  top: 510px;
+  background-color: #00e600;
+}
+#listen {
+  top: 560px;
+  background-color: #00cc00;
+}
+#ily {
+  top: 610px;
+  background-color: #00b300;
+}
+#goodnight {
+  top: 660px;
+  background-color: #009900;
+}
+
+p {
+  text-align:left;
+  color: #52FF00;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color:#52FF00;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  color: #52FF00;
+  text-shadow: 0px 0px 10px #52FF00;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+body{
+	font-family: 'Reenie Beanie', cursive;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px; 
+  text-align: center;
+}
+
+.homemonster{
+	max-width: 30px;
+	padding-left: 95%;
+}
+
+.homepage{
+	background-color: black;
+}
+
+.greentext{
+  color: #52FF00;
+}
+
+.goodgirlspage{
+background: black;
+}
+
+.goodgirlstext{
+  font-size: 3vw;
+  text-align: left;
+  font-family: 'Reenie Beanie', cursive;
+  font-style:italic;
+  font-weight: normal;
+  color: white;
+  padding-top: 8vw;
+}
+
+
+h1 {
+    position: absolute;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #52FF00;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear infinite;
+}
+
+
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(0deg);
+    }
+}
