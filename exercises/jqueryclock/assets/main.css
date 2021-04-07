@@ -1,0 +1,30 @@
+
+body{
+ position: absolute;
+ left: 200px;
+ top: 0px;
+}
+
+#second{
+	position: absolute;
+	margin-top: 10vw;
+	margin-left: 10vw;
+	width: 400px;
+	z-index: 40;
+	
+}
+
+#minute{
+	position: absolute;
+	top: 10vw;
+	left: 10vw;
+	width: 400px;
+	z-index: 3;
+}
+#hour{
+	position: absolute;
+	top: 10vw;
+	left: 10vw;
+	width: 400px;
+	z-index: 2;	
+}
