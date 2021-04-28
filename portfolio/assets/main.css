@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #1a1a1a;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.gallery-item-hello-world {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Helloworlddot.png"), auto;
+}
+
+.gallery-item-animation {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Animationdot.png"), auto;
+}
+
+.gallery-item-fan-page {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Fanpagedot_.png"), auto;
+}
+
+.gallery-item-flex-box {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Flexboxdot.png"), auto;
+}
+
+.gallery-item-helpful-app {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Helpfulappdot.png"), auto;
+}
+
+.gallery-item-hover {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Hoverdot_.png"), auto;
+}
+
+.gallery-item-interviews {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Interviewsdot.png"), auto;
+}
+
+.gallery-item-Jquery-clock {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Jqueryclockdot.png"), auto;
+}
+
+.gallery-item-Jquery {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Jquerydot.png"), auto;
+}
+
+.gallery-item-newsroom {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Newsroomdot.png"), auto;
+}
+
+.gallery-item-wikipedia1 {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Wikipedia1dot.png"), auto;
+}
+
+.gallery-item-wikipedia2 {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: url("Wikipedia2dot.png"), auto;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+a.hello-world:hover {
+  cursor: url("Helloworlddot.png"), auto;
+}
+
+a.newsroom:hover {
+  cursor: url("Newsroomdot.png"), auto;
+}
+
+a.fan-page:hover {
+  cursor: url("Fanpagedot_.png"), auto;
+}
+
+a.helpful-app:hover {
+  cursor: url("Helpfulappdot.png"), auto;
+}
+
+a.animation:hover {
+  cursor: url("Animationdot.png"), auto;
+}
+
+a.flex-box:hover {
+  cursor: url("Flexboxdot.png"), auto;
+}
+
+a.hover:hover {
+  cursor: url("Hoverdot_.png"), auto;
+}
+
+a.interviews:hover {
+  cursor: url("Interviewsdot.png"), auto;
+}
+
+a.Jquery:hover {
+  cursor: url("Jquerydot.png"), auto;
+}
+
+a.Jquery-clock:hover {
+  cursor: url("Jqueryclockdot.png"), auto;
+}
+
+a.wikipedia1:hover {
+  cursor: url("Wikipedia1dot.png"), auto;
+}
+
+a.wikipedia2:hover {
+  cursor: url("Wikipedia2dot.png"), auto;
+}
+
+
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
